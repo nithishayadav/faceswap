@@ -3,3 +3,4 @@
 nvidia-ml-py>=11.525,<300
 pynvx==1.0.0 ; sys_platform == "darwin"
 tensorflow>=2.10.0,<2.11.0
+keras>=2.13.1rc0 # not directly required, pinned by Snyk to avoid a vulnerability
