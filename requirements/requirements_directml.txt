@@ -2,3 +2,4 @@
 tensorflow-cpu>=2.10.0,<2.11.0
 tensorflow-directml-plugin
 comtypes
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
