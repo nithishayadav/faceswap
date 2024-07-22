@@ -3,12 +3,12 @@
 
 sphinx>=6.0.0,<7.0.0
 sphinx_rtd_theme==1.2.2
-tqdm==4.65
+tqdm==4.66.3
 psutil==5.9.0
 numexpr>=2.8.4
 numpy>=1.25.0
 opencv-python>=4.7.0.0
-pillow==9.4.0
+pillow==10.3.0
 scikit-learn>=1.2.2
 fastcluster>=1.2.6
 matplotlib==3.7.1
@@ -19,3 +19,5 @@ nvidia-ml-py>=11.525,<11.526
 pytest==7.2.0
 pytest-mock==3.10.0
 tensorflow>=2.10.0,<2.11.0
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
